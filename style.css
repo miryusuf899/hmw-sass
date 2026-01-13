@@ -320,7 +320,109 @@ header .section1 .inBox2 .img1 {
   gap: 20px;
 }
 
+.ptele {
+  display: none;
+}
+
+.img10 {
+  display: none;
+}
+
+.pOxir {
+  text-align: center;
+  padding: 40px;
+  margin: auto;
+  color: rgb(115, 115, 115);
+}
+
 @media (max-width: 510px) {
+  .footer {
+    height: 907px;
+    margin-top: 0px;
+  }
+  .idrisFoot {
+    flex-direction: column;
+  }
+  .inp1 {
+    width: 90%;
+  }
+  .login {
+    padding: 40px;
+  }
+  .img10 {
+    display: block;
+    width: 100%;
+  }
+  .img3 {
+    display: none;
+  }
+  .FORM {
+    flex-direction: column;
+    width: 100%;
+  }
+  .img4 {
+    width: 90%;
+  }
+  .box6 {
+    flex-direction: column;
+  }
+  .pcomp {
+    display: none;
+  }
+  .ptele {
+    display: block;
+  }
+  .inBox3 {
+    width: 90%;
+  }
+  .box6 {
+    flex-direction: column;
+  }
+  .back4 {
+    height: 1540px;
+  }
+  .inItem1 {
+    width: 100%;
+  }
+  .inItem2 {
+    width: 100%;
+  }
+  .item3 {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 407px;
+  }
+  .cardho2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .box5 {
+    width: 90%;
+    margin: auto;
+  }
+  .back2 {
+    height: 959px;
+  }
+  .back3 {
+    height: 1277px;
+  }
+  .item2 {
+    padding: 20px 40px;
+  }
+  .cardho {
+    display: flex;
+    flex-direction: column;
+  }
+  .box4 {
+    width: 90%;
+    margin: auto;
+  }
+  .box3 {
+    width: 99%;
+    margin: auto;
+  }
   .div1 {
     display: flex;
     flex-direction: column;
