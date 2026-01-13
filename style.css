@@ -12,9 +12,11 @@ header {
   color: white;
   position: relative;
 }
+
 header .img2 {
   position: absolute;
 }
+
 header .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,21 +25,26 @@ header .navbar {
   max-width: 1200px;
   margin: auto;
 }
+
 header .navbar .divObshiy {
   display: flex;
   gap: 60px;
 }
+
 header .navbar .divObshiy div {
   display: flex;
   gap: 20px;
 }
+
 header .navbar div {
   display: flex;
   gap: 40px;
 }
+
 header .navbar div p {
   font-weight: 600;
 }
+
 header .navbar div button {
   padding: 20px 30px;
   background-color: rgb(35, 166, 240);
@@ -50,6 +57,7 @@ header .navbar div button {
   justify-content: center;
   gap: 20px;
 }
+
 header .section1 {
   max-width: 1100px;
   margin: auto;
@@ -57,19 +65,24 @@ header .section1 {
   flex-direction: row;
   justify-content: space-between;
 }
+
 header .section1 .inBox1 {
   width: 50%;
 }
+
 header .section1 .inBox1 h1 {
   font-size: 58px;
   font-weight: 700;
 }
+
 header .section1 .inBox1 p {
   margin-top: 40px;
 }
+
 header .section1 .inBox1 div {
   margin-top: 40px;
 }
+
 header .section1 .inBox1 div button {
   padding: 20px 30px;
   background-color: rgb(35, 166, 240);
@@ -79,282 +92,278 @@ header .section1 .inBox1 div button {
   border-radius: 5px;
   border-radius: 37px;
 }
+
 header .section1 .inBox1 div .button2 {
   background-color: rgba(0, 0, 255, 0);
   border: 1px solid white;
 }
+
 header .section1 .inBox2 {
   position: relative;
   z-index: 3;
 }
+
 header .section1 .inBox2 .img1 {
   position: absolute;
   z-index: -1;
-}/*# sourceMappingURL=style.css.map */
-.back
-{
-    width: 100%;
-    height: 721px;
-    background-color: rgba(37, 43, 66, 1);
-    display: flex;
-    align-items: center;
-}
-.box2
-{
-    max-width: 1100px;
-    margin: auto;
-}
-.h2
-{
-    text-align: center;
-}
-.p1
-{
-    text-align: center;
-    color: rgba(115, 115, 115, 1);
-    margin-top: 30px;
-}
-.div1
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    gap: 20px;
-    margin-top: 70px;
-}
-.item1
-{
-    width: 329px;
-    height: 139px;
-    border: 1px solid rgba(242, 242, 242, 1);
-    display: flex;
-}
-.icon1
-{
-    display: none;
-}
-.divIcons
-{
-    display: none;
-}
-.divMenu
-{
-    display: none;
-}
-.back1
-{
-    width: 100%;
-    height: 773px;
-    background-color: rgba(37, 43, 66, 1);
-}
-.box3
-{
-    max-width: 800px;
-}
-.card
-{
-    height: 362px;
-    background-color: white;
-    border-radius: 5px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-}
-.back2
-{
-    width: 100%;
-    height: 400px;
-    background-color: rgba(37, 43, 66, 1);
-    display: flex;
-    align-items: center;
-}
-.box4
-{
-    max-width: 1000px;
-    margin: auto;
-}
-.cardho
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 50px;
-    gap: 15px;
-}
-.item2
-{
-    width: 210px;
-    height: 82px;
-    border-radius: 10px;
-    border: 1px solid rgba(189, 189, 189, 1);
-    display: flex;
-    gap: 20px;
-}
-.back3
-{
-    width: 100%;
-    height: 766px;
-    background-color: rgba(37, 43, 66, 1);
-    display: flex;
-    align-items: center;
-}
-.box5
-{
-    max-width: 1000px;
-    margin: auto;
-}
-.cardho2
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 30px;
-    margin-top: 100px;
-}
-.button3
-{
-    padding: 20px 30px;
-    background-color: rgba(35, 166, 240, 1);
-    border: none;
-    color: white;
-    font-weight: 600;
-    border-radius: 5px;
-}
-.div2
-{
-    display: flex;
-    gap: 15px;
-}
-.item3
-{
-    background-color: white;
-    padding: 60px;
-    border-radius: 10px;
-    color: black;
-    display: flex;
-}
-.inItem1
-{
-    width: 50%;
-}
-.inItem2
-{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: start;
-    justify-content: start;
-}
-.back4
-{
-    width: 100%;
-    height: 807px;
-    background-color: rgba(37, 43, 66, 1);
-}
-.box6
-{
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-}
-.inBox3
-{
-    width: 50%;
-}
-.FORM
-{
-    width: 55%;
-    background-color: white;
-    color: black;
-    display: flex;
-}
-.login
-{
-    padding: 20px;
-    width: 64%;
+} 
+.back {
+  width: 100%;
+  height: 721px;
+  background-color: rgb(37, 43, 66);
+  display: flex;
+  align-items: center;
 }
 
-@media (max-width: 510px)
-{
-    .div1
-    {
-        display: flex;
-        flex-direction: column;
-    }
-    .box2
-    {
-        width: 90%;
-        margin: auto;
-        justify-content: start;
-    }
-    .back
-    {
-        height: 1385px;
-    }
-    .imgtele
-    {
-        width: 100%;
-    }
-    header .section1 .inBox1 div
-    {
-        display: flex;
-        flex-direction: column;
-        row-gap: 50px;
-    }
-    header .section1 .inBox1
-    {
-        width: 100%;
-        text-align: center;
-    }
-    header .section1 .inBox2
-    {
-        width: 100%;
-        margin-top: 50px;
-    }
-    header
-    {
-        height: 1643px;
-    }
-    header .section1 
-    {
-        flex-direction: column;
-        width: 90%;
-        margin: auto;
-        margin-top: 50px;
-    }
-    .divMenu
-    {
-        display: block;
-        text-align: center;
-        font-size: 30px;
-        line-height: 70px;
-    }
-    header .navbar div button
-    {
-        display: none;
-    }
-    header .navbar div p 
-    {
-        display: none;
-    }
-    .icon1
-    {
-        display: block;
-        width: 24px;
-    }
-    .divIcons
-    {
-        display: flex;
-        gap: 10px;
-    }
-    .navbar
-    {
-        width: 90%;
-        margin: auto;
-    }
-    header .navbar .divObshiy div 
-    {
-        display: none;
-    }
+.box2 {
+  max-width: 1100px;
+  margin: auto;
 }
+
+.h2 {
+  text-align: center;
+}
+
+.p1 {
+  text-align: center;
+  color: rgb(115, 115, 115);
+  margin-top: 30px;
+}
+
+.div1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  margin-top: 70px;
+}
+
+.item1 {
+  width: 329px;
+  height: 139px;
+  border: 1px solid rgb(242, 242, 242);
+  display: flex;
+}
+
+.icon1 {
+  display: none;
+}
+
+.divIcons {
+  display: none;
+}
+
+.divMenu {
+  display: none;
+}
+
+.back1 {
+  width: 100%;
+  height: 773px;
+  background-color: rgb(37, 43, 66);
+}
+
+.box3 {
+  max-width: 800px;
+}
+
+.card {
+  height: 362px;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.back2 {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(37, 43, 66);
+  display: flex;
+  align-items: center;
+}
+
+.box4 {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cardho {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+  gap: 15px;
+}
+
+.item2 {
+  width: 210px;
+  height: 82px;
+  border-radius: 10px;
+  border: 1px solid rgb(189, 189, 189);
+  display: flex;
+  gap: 20px;
+}
+
+.back3 {
+  width: 100%;
+  height: 766px;
+  background-color: rgb(37, 43, 66);
+  display: flex;
+  align-items: center;
+}
+
+.box5 {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cardho2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+.button3 {
+  padding: 20px 30px;
+  background-color: rgb(35, 166, 240);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.div2 {
+  display: flex;
+  gap: 15px;
+}
+
+.item3 {
+  background-color: white;
+  padding: 60px;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+}
+
+.inItem1 {
+  width: 50%;
+}
+
+.inItem2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: start;
+  justify-content: start;
+}
+
+.back4 {
+  width: 100%;
+  height: 807px;
+  background-color: rgb(37, 43, 66);
+}
+
+.box6 {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+}
+
+.inBox3 {
+  width: 50%;
+}
+
+.FORM {
+  width: 55%;
+  background-color: white;
+  color: black;
+  display: flex;
+  margin-top: 200px;
+}
+
+.login {
+  padding: 20px;
+  width: 64%;
+  color: black;
+}
+
+.inp1 {
+  padding: 11px 21px;
+  font-size: 18px;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+  width: 470px;
+}
+
+@media (max-width: 510px) {
+  .div1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .box2 {
+    width: 90%;
+    margin: auto;
+    justify-content: start;
+  }
+  .back {
+    height: 1385px;
+  }
+  .imgtele {
+    width: 100%;
+  }
+  header .section1 .inBox1 div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  header .section1 .inBox1 {
+    width: 100%;
+    text-align: center;
+  }
+  header .section1 .inBox2 {
+    width: 100%;
+    margin-top: 50px;
+  }
+  header {
+    height: 1643px;
+  }
+  header .section1 {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .divMenu {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    line-height: 70px;
+  }
+  header .navbar div button {
+    display: none;
+  }
+  header .navbar div p {
+    display: none;
+  }
+  .icon1 {
+    display: block;
+    width: 24px;
+  }
+  .divIcons {
+    display: flex;
+    gap: 10px;
+  }
+  .navbar {
+    width: 90%;
+    margin: auto;
+  }
+  header .navbar .divObshiy div {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
